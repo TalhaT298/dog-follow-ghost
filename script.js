@@ -6,7 +6,7 @@ function init() {
     wrapper: document.querySelector('.wrapper'),
     dog: document.querySelector('.dog'),
     marker: document.querySelectorAll('.marker'),
-    // indicator: document.querySelector('.indicator'),
+    
   }
 
   const animationFrames = {
@@ -26,13 +26,7 @@ function init() {
 
   const angles = [360, 45, 90, 135, 180, 225, 270, 315]
   const defaultEnd = 4
-  //  A ---- A  ________ ________
-  // |         |         |        |
-  // | ^     ^ |         |        |
-  //  ____^___  _________|________|
-  //            | |  | |  | |  | |
-  //             1    2    3    4
-  //             L    R    L    R
+  
   const partPositions = [
     { //0
       leg1: { x: 26, y: 43 },
